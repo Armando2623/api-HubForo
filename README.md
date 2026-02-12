@@ -6,7 +6,7 @@ Este proyecto simula una plataforma de discusión académica o técnica similar 
 
 ---
 
-## 🚀 Funcionalidades
+ Funcionalidades
 
 - Registro y autenticación de usuarios
 - Creación de tópicos
@@ -20,7 +20,7 @@ Este proyecto simula una plataforma de discusión académica o técnica similar 
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+ Tecnologías utilizadas
 
 - Java 17+
 - Spring Boot
@@ -35,5 +35,16 @@ Este proyecto simula una plataforma de discusión académica o técnica similar 
 
 ---
 
-## 📁 Estructura del proyecto
+ Estructura del proyecto
 
+src/main/java/com/ortiz/foroHub
+│
+├── controllers
+├── domain
+│ ├── topico
+│ ├── respuestas
+│ ├── usuarios
+│ └── perfiles
+├── infra
+│ └── security
+└── repository
